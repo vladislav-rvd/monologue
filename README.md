@@ -70,9 +70,9 @@ be available at `/monologue`.
 ### 3. Migrate Monologue's database tables
 Run these commands:
 
-1. $`bin/rake monologue:install:migrations`
-2. $`bin/rake db:create` (only if this is a new project)
-3. $`bin/rake db:migrate`
+1. $`bundle exec rake app:monologue:install:migrations`
+2. $`bundle exec rake db:create` (only if this is a new project)
+3. $`bundle exec rake db:migrate`
 
 
 ### 4. Create a user
